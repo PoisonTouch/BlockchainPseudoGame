@@ -1,0 +1,2 @@
+# BlockchainPseudoGame
+ Псевдо-игра 

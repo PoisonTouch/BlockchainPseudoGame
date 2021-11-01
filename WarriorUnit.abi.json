@@ -1,0 +1,100 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"base","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getPowerAttack",
+			"inputs": [
+				{"name":"value","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "deathAndDeleteFromBase",
+			"inputs": [
+				{"name":"base","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getPowerProtection",
+			"inputs": [
+				{"name":"power","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "acceptTheAttack",
+			"inputs": [
+				{"name":"damage","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "death",
+			"inputs": [
+				{"name":"addressOfKiller","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "powerProtection",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"powerProtection","type":"uint256"}
+			]
+		},
+		{
+			"name": "hp",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"hp","type":"uint256"}
+			]
+		},
+		{
+			"name": "addressOfBase",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"addressOfBase","type":"address"}
+			]
+		},
+		{
+			"name": "powerAttack",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"powerAttack","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"powerProtection","type":"uint256"},
+		{"name":"hp","type":"uint256"},
+		{"name":"addressOfBase","type":"address"},
+		{"name":"powerAttack","type":"uint256"}
+	]
+}

@@ -1,0 +1,90 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "addMilitaryUnit",
+			"inputs": [
+				{"name":"addressMilitaryUnit","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "deleteMilitaryUnit",
+			"inputs": [
+				{"name":"addressMilitaryUnit","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getPowerProtection",
+			"inputs": [
+				{"name":"power","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "acceptTheAttack",
+			"inputs": [
+				{"name":"damage","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "death",
+			"inputs": [
+				{"name":"addressOfKiller","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "powerProtection",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"powerProtection","type":"uint256"}
+			]
+		},
+		{
+			"name": "hp",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"hp","type":"uint256"}
+			]
+		},
+		{
+			"name": "addressesMilitaryUnits",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"addressesMilitaryUnits","type":"address[]"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"powerProtection","type":"uint256"},
+		{"name":"hp","type":"uint256"},
+		{"name":"addressesMilitaryUnits","type":"address[]"}
+	]
+}
